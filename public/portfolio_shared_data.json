@@ -1,0 +1,62 @@
+{
+  "basic_info": {
+    "name": "Tony's Portfolio",
+    "titles": [
+      "CS Student @ The City College of New York",
+      "Mobile Engineering Intern - iOS @ M1 Finance",
+      "iOS Developer",
+      "Football (Soccer) Enthusiast"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/MyatThuKo",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/myatthuko13/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "myProfile.jpeg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Swift",
+        "class": "devicon-swift-plain",
+        "level": "95"
+      },
+      {
+        "name": "Xcode",
+        "class": "devicon-xcode-plain",
+        "level": "95"
+      },
+      {
+        "name": "VSCode",
+        "class": "devicon-vscode-plain",
+        "level": "95"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "90"
+      },
+      {
+        "name": "HTML",
+        "class": "devicon-html5-plain",
+        "level": "70"
+      },
+      {
+        "name": "CSS",
+        "class": "devicon-css3-plain",
+        "level": "65"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain"
+      }
+    ]
+  }
+}
