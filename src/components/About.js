@@ -13,6 +13,18 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var contact = this.props.resumeBasicInfo.email;
+    }
+    if (this.props.sharedBasicInfo) {
+      var networks = this.props.sharedBasicInfo.social.map(function (network) {
+        return (
+          <span key={network.name} className="m-4">
+            <a href={network.url} target="_blank" rel="noopener noreferrer">
+              <i className={network.class}></i>
+            </a>
+          </span>
+        );
+      });
     }
 
     return (
@@ -35,12 +47,12 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
                     icon={iOSIcon}
                     style={{ fontSize: "200%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={reactIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
@@ -81,6 +93,10 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
+                    <br />
+                    Email - {contact}
+                    <br />
+                    <div className="social-links">Social Links{networks}</div>
                   </div>
                 </div>
               </div>

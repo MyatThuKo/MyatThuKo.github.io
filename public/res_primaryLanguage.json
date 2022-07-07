@@ -2,11 +2,13 @@
   "basic_info": {
     "description_header": "Hello, welcome!",
     "description": "👋 I'm Tony and a senior at the City College of New York, majoring in Computer Science. I'm currently interning as a Mobile Engineering - iOS at M1 Finance and residing in Brooklyn, NY. I enjoy playing and watching soccer, basketball, badminton, and swimming and also love trying different kinds of food and travelling.",
+    "email": "nymyatthuko@gmail.com",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Experience",
+      "education": "Education"
     }
   },
   "projects": [
@@ -79,10 +81,38 @@
       ]
     }
   ],
+  "education": [
+    {
+      "school": "The City College of New York",
+      "city": "New York, NY",
+      "years": "August 2020 - Present",
+      "major": [
+        "B.S. Computer Science"
+      ],
+      "courses": [
+        "Intro to Programming (Python)",
+        "Algorithm (C++)",
+        "Scientific Programming (Python)"
+      ]
+    },
+    {
+      "school": "Borough of Manhattan Community College",
+      "city": "New York, NY",
+      "years": "August 2017 - May 2019",
+      "major": [
+        "A.S. Computer Science"
+      ],
+      "courses": [
+        "Intro to Computer Science (HTML/CSS)",
+        "Data Structure (C++)",
+        "Software Development (HTML/CSS)"
+      ]
+    }
+  ],
   "experience": [
     {
       "company": "M1 Finance",
-      "title": "Mobile Engineering Intern - iOS",
+      "title": "Mobile Engineering Intern - iOS (Remote)",
       "years": "May 2022 - Present",
       "mainTech": [
         "Swift"
@@ -98,7 +128,7 @@
     },
     {
       "company": "MarketFly LLC.",
-      "title": "Web Developer Intern",
+      "title": "Web Developer Intern (Remote)",
       "years": "March 2021 - June 2021",
       "mainTech": [
         "React.js"
@@ -115,7 +145,7 @@
     {
       "company": "Pantsuit Professionals",
       "title": "iOS Developer Intern",
-      "years": "September 2019 - Feburary 2020",
+      "years": "September 2019 - Feburary 2020 (Remote)",
       "mainTech": [
         "Swift"
       ],
@@ -127,7 +157,7 @@
     },
     {
       "company": "Codeucate",
-      "title": "Software Developer Intern",
+      "title": "Software Developer Intern (Remote)",
       "years": "July 2019 - December 2019",
       "mainTech": [
         "React.js"
